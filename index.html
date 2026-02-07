@@ -1,6 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Parikrama Harīm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+    Editing guide:
+    1. Replace text content in each section with the latest event details (city, dates, contacts).
+    2. Update calls-to-action (CTA) links by changing the href values on buttons/links.
+    3. Duplicate or remove "cards" and "itinerary-step" blocks to match your needs.
+    4. Adjust colors once in styles.css using the CSS variables at the top.
+    5. Swap imagery by setting background images on .hero or adding <img> tags in the cards.
+  -->
+  <header class="top-bar">
+    <div class="brand">
+      <span class="brand-mark">Harīm</span>
+      <span class="brand-name">Global Parikrama</span>
+    </div>
+    <nav>
+      <a href="#highlights">Highlights</a>
+      <a href="#itinerary">Itinerary</a>
+      <a href="#logistics">Logistics</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Sacred Journey | 2026</p>
+        <h1>Global Parikrama Harīm</h1>
+        <p class="lead">
+          A serene, uncluttered guide for the worldwide parikrama — celebrating devotion,
+          community, and mindful travel.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Join the Journey</a>
+          <a class="btn ghost" href="#itinerary">View Itinerary</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <p class="meta-label">Dates</p>
+            <p class="meta-value">Nov 5 - Nov 20, 2026</p>
+          </div>
+          <div>
+            <p class="meta-label">Locations</p>
+            <p class="meta-value">Vrindavan • Mayapur • Govardhan</p>
+          </div>
+          <div>
+            <p class="meta-label">Lead</p>
+            <p class="meta-value">Harīm Sanga International</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <p class="card-eyebrow">Template Note</p>
+        <h2>Drop your own details</h2>
+        <p>
+          Swap the text, dates, and contact links. Keep or replace the highlight,
+          itinerary, and FAQ blocks to suit your route.
+        </p>
+        <div class="mini-list">
+          <span>✔ Clear sections</span>
+          <span>✔ Mobile friendly</span>
+          <span>✔ Minimal editing</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="highlights">
+      <div class="section-heading">
+        <p class="eyebrow">What to expect</p>
+        <h2>Highlights</h2>
+        <p class="subhead">Swap these cards with your own focus areas.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Daily Flow</h3>
+          <p>Morning kirtan, guided parikrama, seva, and quiet reflection circles.</p>
+        </article>
+        <article class="card">
+          <h3>Community</h3>
+          <p>Shared meals, small-group check-ins, and seva pairings to stay connected.</p>
+        </article>
+        <article class="card">
+          <h3>Learning</h3>
+          <p>Talks on sacred sites, culture, and mindful travel practices.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="itinerary">
+      <div class="section-heading">
+        <p class="eyebrow">Pathway</p>
+        <h2>Itinerary overview</h2>
+        <p class="subhead">Duplicate or edit steps to map your route.</p>
+      </div>
+      <div class="itinerary">
+        <div class="itinerary-step">
+          <div class="step-marker">Day 1-3</div>
+          <div>
+            <h3>Vrindavan Arrival</h3>
+            <p>Welcome aarti, Yamuna darshan, and Radha Raman seva immersion.</p>
+          </div>
+        </div>
+        <div class="itinerary-step">
+          <div class="step-marker">Day 4-9</div>
+          <div>
+            <h3>Govardhan & Barsana</h3>
+            <p>Parikrama paths, Govardhan puja, and reflections at Kusum Sarovar.</p>
+          </div>
+        </div>
+        <div class="itinerary-step">
+          <div class="step-marker">Day 10-14</div>
+          <div>
+            <h3>Mayapur</h3>
+            <p>Ganga darshan, kirtan nights, and seva at community kitchens.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted" id="logistics">
+      <div class="section-heading">
+        <p class="eyebrow">Practical notes</p>
+        <h2>Logistics & Stay</h2>
+      </div>
+      <div class="info-grid">
+        <article class="info-card">
+          <h3>Where we stay</h3>
+          <p>Simple, clean rooms close to temples and gathering spaces.</p>
+        </article>
+        <article class="info-card">
+          <h3>What to bring</h3>
+          <p>Light attire, journal, reusable bottle, and a heart ready for kirtan.</p>
+        </article>
+        <article class="info-card">
+          <h3>Contribution</h3>
+          <p>Suggested donation covers stay, local travel, and prasadam.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-heading">
+        <p class="eyebrow">Questions</p>
+        <h2>Quick FAQ</h2>
+      </div>
+      <div class="faq-grid">
+        <article class="faq-item">
+          <h3>Can families join?</h3>
+          <p>Yes. We keep the pace gentle with space for elders and children.</p>
+        </article>
+        <article class="faq-item">
+          <h3>Do I need prior experience?</h3>
+          <p>No. Guidance is provided for all rituals, routes, and daily rhythm.</p>
+        </article>
+        <article class="faq-item">
+          <h3>How do I confirm?</h3>
+          <p>Use the contact link below or email to reserve your place.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta" id="contact">
+      <div class="cta-card">
+        <div>
+          <p class="eyebrow">Ready to walk together?</p>
+          <h2>Register or ask a question</h2>
+          <p class="lead">Share your travel dates, passport name, and dietary needs.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn primary" href="mailto:contact@harimparikrama.org">Email the team</a>
+          <!-- Replace 911234567890 with your WhatsApp number (country code + number, no plus sign) -->
+          <a class="btn ghost" href="https://wa.me/911234567890">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Global Parikrama Harīm — a clear, simple template for your sacred journey.</p>
+  </footer>
+=======
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Global Parikrama Harīm - A mobile spiritual community traveling to Earth's holy places">
